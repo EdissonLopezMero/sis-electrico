@@ -1,12 +1,8 @@
 Triggers que lleva los movimientos de la tabla consumo eléctrico
-
-
 select * into registroConsumoEle from ConsumodeElectrico
 select *from registroConsumoEle
 select *from ConsumodeElectrico
 delete from registroConsumoEle
-
-
 create trigger repli_consumo
 
 	on ConsumodeElectrico
